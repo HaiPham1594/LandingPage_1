@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page 3D Shape</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+    <script
+      rel="preload"
+      as="script"
+      src="https://cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- <img src="./bg_1.png" alt=""> -->
+    <div class="container">
+      <div class="content__left">
+        <img class="ct__logo" src="./logo.png" alt="" />
+        <div class="ct__sub-content">
+          <h3>A massive library of free 3D <span>shapes</span></h3>
+          <p>
+            Lorem ipsum is placeholder text commonly used in the graphic, print,
+            and publishing industries
+          </p>
+        </div>
+        <div class="ct__input">
+          <input id="inputBox" type="text" placeholder="Your email address" />
+          <button>Download</button>
+        </div>
+      </div>
+      <div class="content__right">
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>Products</li>
+            <li>Support</li>
+            <li>About</li>
+            <li>Quote</li>
+          </ul>
+        </nav>
+        <img src="./img_right.png" alt="" />
+      </div>
+    </div>
+    <div class="ct__social">
+      <img src="./logo_2.png" alt="" />
+    </div>
+    
+    <script>
+      let inputBox = document.querySelector("#inputBox");
+      inputBox.onclick = () => {
+        //   inputBox.style.border = "none";
+        console.log("click");
+      };
+    </script>
+  </body>
+</html>
